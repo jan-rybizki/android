@@ -79,5 +79,59 @@
             android:textColor="@color/primary"
             android:textSize="40sp" />
     </LinearLayout>
-</LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/blocksCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/game_card"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:minHeight="132dp"
+        android:orientation="horizontal"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:background="@color/blocks_dark"
+            android:contentDescription="Fallende-Blöcke-Symbol"
+            android:gravity="center"
+            android:text="▦"
+            android:textColor="@color/text"
+            android:textSize="38sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fallende Blöcke"
+                android:textColor="@color/text"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Drehen, stapeln, Reihen räumen"
+                android:textColor="@color/text_muted"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="@color/blocks"
+            android:textSize="40sp" />
+    </LinearLayout>
+</LinearLayout>
