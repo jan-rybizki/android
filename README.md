@@ -1,8 +1,8 @@
 # Android Spielesammlung
 
 Eine native Android-App, in der jedes neue Spiel einen eigenen Eintrag auf dem
-Startbildschirm erhält. Den Anfang macht **Snake** – inklusive Wischsteuerung,
-Punktestand, Pausenfunktion und Neustart.
+Startbildschirm erhält. Enthalten sind **Snake** und **Fallende Blöcke** – beide
+mit intuitiver Touchsteuerung, Punktestand, Pausenfunktion und Neustart.
 
 ## App installieren
 
@@ -29,6 +29,7 @@ Das APK liegt anschließend unter `app/build/outputs/apk/debug/app-debug.apk`.
 
 ## Spielen
 
-Wähle auf dem Startbildschirm **Snake** aus. Wische auf dem Spielfeld in die
-gewünschte Richtung. Über den Button oben rechts lässt sich das Spiel pausieren
-und fortsetzen. Nach einer Kollision startet **Nochmal spielen** eine neue Runde.
+Wähle auf dem Startbildschirm **Snake** oder **Fallende Blöcke** aus. Bei Snake
+steuerst du per Wischgeste. Im Blockspiel bewegst du die Steine mit den Buttons
+oder Wischgesten; Tippen dreht einen Stein und Wischen nach unten legt ihn sofort
+ab. Über den Button oben rechts lassen sich beide Spiele pausieren und neu starten.

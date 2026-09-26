@@ -6,6 +6,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GameCollection">
         <activity
+            android:name=".TetrisActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".SnakeActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -18,4 +21,3 @@
         </activity>
     </application>
 </manifest>
-

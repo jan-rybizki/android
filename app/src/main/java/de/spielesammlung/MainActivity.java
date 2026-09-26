@@ -12,6 +12,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         View snakeCard = findViewById(R.id.snakeCard);
         snakeCard.setOnClickListener(view -> startActivity(new Intent(this, SnakeActivity.class)));
+        View blocksCard = findViewById(R.id.blocksCard);
+        blocksCard.setOnClickListener(view -> startActivity(new Intent(this, TetrisActivity.class)));
     }
 }
-
