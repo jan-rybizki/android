@@ -22,6 +22,9 @@ jobs:
           java-version: "17"
       - name: Android SDK einrichten
         uses: android-actions/setup-android@v3
+        with:
+          # Das veraltete Standardpaket "tools" ist nicht mehr im SDK-Repository.
+          packages: platform-tools
       - name: Android API installieren
         run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
       - name: Gradle einrichten
